@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+div, section, header {
+    box-sizing:border-box;
+}
+
+.landingpage {
+    /*--Make the image take up the whole screen + make it responsive*/
+    background-size:cover;
+    height: 98vh;
+    margin:20px 0;
+}   
+
+header {
+    background-image:url('images/headerbackground.png');  
+}
+
+h2 {
+    text-align:center;
+    font:40px Calibre-Web, Calibri;
+    padding:60px 0;
+}
+
+/* Trying to make a graph of the methods
+#fried.fixed {
+    position: fixed;
+    bottom:30px;
+    right: 100px;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+*/
+
+.left{
+    float:left;
+    width:50%;
+    height:100%;
+    background-color:palegoldenrod;
+   
+}
+
+.right{
+    float:right;
+    width:50%;
+    height:100%;
+    border-left:solid 3px blue;
+    background-color:white;
+    padding:50px;
+}
+
+

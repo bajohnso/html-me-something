@@ -2,15 +2,16 @@
 
 <head>
     <title>EGGS!</title>
+    <link href='styles.css' type='text/css' rel='stylesheet'>
 </head>
 
 <body>
     <header>
-        <div class="landingPage">
-            <img src='images/brownegg.jpg' alt='photo of brown egg'>
-            <nav class="clickable">
-                <ul>
-                    <li id="fried"><a href=#friedmethod>fried</a></li>
+        <div class="landingpage" id="top">
+            <h2>Ways to Cook an Egg</h2>
+            <nav>
+                <ul class="clickable">
+                    <li class="fixed" id="fried"><a href=#friedmethod>fried</a></li>
                     <li id="scrambled"><a href=#scrambledmethod>scrambled</a></li>
                     <li id="disco"><a href=#discomethod>disco</a></li>
                     <li id="romelette"><a href=#romelettemethod>romelette</a></li>
@@ -24,7 +25,7 @@
     </header>
 
     <main>
-        <section class="method" id="friedmethod">
+        <section class="landingpage" id="friedmethod">
             <div class= "left">
                 <article>
                     <img source="images/friedegg.jpg" alt="A fried egg">
@@ -47,7 +48,7 @@
             </div>
         </section> <!--End cooking method 1-->
 
-        <section class="method" id="scrambledmethod">
+        <section class="landingpage" id="scrambledmethod">
             <div class= "left">
                 <article>
                     <img source="images/scrambled.jpg" alt="A scrambled egg">
@@ -70,77 +71,80 @@
             </div>
         </section> <!--End cooking method 2-->
 
-        <section class="method" id="discomethod">
-                <div class= "left">
-                    <article>
-                        <img source="images/disco.jpg" alt="A disco egg">
-                    </article>
-                </div>
+        <section class="landingpage" id="discomethod">
+            <div class= "left">
+                <article>
+                    <img source="images/disco.jpg" alt="A disco egg">
+                </article>
+            </div>
+
+            <div class="right">
+                <article>
+                    <h3>How to Make Disco Eggs</h3>
+                    <small>Time: 3-5 minutes</small> 
+                    <small>Difficulty:</small>
+                    <p>Disco eggs are...</p>
+                    <ol class="steps">
+                        <li>Step 1</li>
+                        <li>Step 2</li>
+                        <li>Step 3</li>
+                        <li>Step 4</li>
+                    </ol>
+                </article>
+            </div>
+        </section> <!--End cooking method 3-->
+
+        <section class="landingpage" id="romelettemethod">
+            <div class= "left">
+                <article>
+                    <img source="images/disco.jpg" alt="A disco egg">
+                </article>
+            </div>
+
+            <div class="right">
+                <article>
+                    <h3>How to Make Aa Romelette</h3>
+                    <small>Time: 3-5 minutes</small> 
+                    <small>Difficulty:</small>
+                    <p>Disco eggs are...</p>
+                    <ol class="steps">
+                        <li>Step 1</li>
+                        <li>Step 2</li>
+                        <li>Step 3</li>
+                        <li>Step 4</li>
+                    </ol>
+                </article>
+            </div>
+        </section> <!--End cooking method 3-->
+
+        <section class="landingpage" id="softmethod">
+            <div class= "left">
+                <article>
+                    <img source="images/disco.jpg" alt="A disco egg">
+                </article>
+            </div>
+
+            <div class="right">
+                <article>
+                    <h3>How to Make A Soft-Boiled Egg</h3>
+                    <small>Time: 3-5 minutes</small> 
+                    <small>Difficulty:</small>
+                    <p>Disco eggs are...</p>
+                    <ol class="steps">
+                        <li>Step 1</li>
+                        <li>Step 2</li>
+                        <li>Step 3</li>
+                        <li>Step 4</li>
+                    </ol>
+                </article>
+            </div>
+        </section> <!--End cooking method 5-->
     
-                <div class="right">
-                    <article>
-                        <h3>How to Make Disco Eggs</h3>
-                        <small>Time: 3-5 minutes</small> 
-                        <small>Difficulty:</small>
-                        <p>Disco eggs are...</p>
-                        <ol class="steps">
-                            <li>Step 1</li>
-                            <li>Step 2</li>
-                            <li>Step 3</li>
-                            <li>Step 4</li>
-                        </ol>
-                    </article>
-                </div>
-            </section> <!--End cooking method 3-->
-
-            <section class="method" id="romelettemethod">
-                    <div class= "left">
-                        <article>
-                            <img source="images/romelette.jpg" alt="A romelette">
-                        </article>
-                    </div>
-        
-                    <div class="right">
-                        <article>
-                            <h3>How to Make a Romelette</h3>
-                            <small>Time: 5-7 minutes</small> 
-                            <small>Difficulty:</small>
-                            <p>A romelette is...</p>
-                            <ol class="steps">
-                                <li>Step 1</li>
-                                <li>Step 2</li>
-                                <li>Step 3</li>
-                                <li>Step 4</li>
-                            </ol>
-                        </article>
-                    </div>
-                </section> <!--End cooking method 4-->
-
-                <section class="method" id="softmethod">
-                        <div class= "left">
-                            <article>
-                                <img source="images/soft.jpg" alt="A soft-boiled egg">
-                            </article>
-                        </div>
-            
-                        <div class="right">
-                            <article>
-                                <h3>"How to Cook a Soft-Boiled Egg</h3>
-                                <small>Time: 4-6 minutes</small> 
-                                <small>Difficulty:</small>
-                                <p>Soft-boiled eggs are...</p>
-                                <ol class="steps">
-                                    <li>Step 1</li>
-                                    <li>Step 2</li>
-                                    <li>Step 3</li>
-                                    <li>Step 4</li>
-                                </ol>
-                            </article>
-                        </div>
-                    </section> <!--End cooking method 5-->
-            
-        
     
 
     </main>
+
+    <footer>
+
+    </footer>
 </body>
