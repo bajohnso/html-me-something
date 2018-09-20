@@ -1,150 +1,221 @@
 <!DOCTYPE html>
 
-<head>
-    <title>EGGS!</title>
-    <link href='styles.css' type='text/css' rel='stylesheet'>
-</head>
+<html>
+    <head>
+        <title>EGGS!</title>
+        <link href='styles.css' type='text/css' rel='stylesheet'>
+    </head>
 
-<body>
-    <header>
-        <div class="landingpage" id="top">
-            <h2>Ways to Cook an Egg</h2>
-            <nav>
-                <ul class="clickable">
-                    <li class="fixed" id="fried"><a href=#friedmethod>fried</a></li>
-                    <li id="scrambled"><a href=#scrambledmethod>scrambled</a></li>
-                    <li id="disco"><a href=#discomethod>disco</a></li>
-                    <li id="romelette"><a href=#romelettemethod>romelette</a></li>
-                    <li id="soft-boiled"><a href=#softmethod>soft-boiled</a></li>
-                    <li id="cloud"><a href=#cloudmethod>cloud</a></li>
-                    <li id="hard-boiled"><a href=#hardmethod>hard-boiled</a></li>
-                    <li id="poached"><a href=#poachedmethod>poached</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-        <section class="landingpage" id="friedmethod">
-            <div class= "left">
-                <article>
-                    <img source="images/friedegg.jpg" alt="A fried egg">
-                </article>
+    <body>
+        <header>
+            <div class="landingpage" id="top">
+                <h2>&#161Egg in your face!<br>
+                    <h5>...or <em>on</em> if you're a messy eater. They're cheep-ish and tasty. Here are some ways to prepare an</h5>
+                </h2>     
+                        
+                <a class="eggemoji"></a>
+                
+                <span class="nav">
+                   //\\ <a id="displaynav" href="#friedmethod">Fried</a> //\\
+                    <a id="displaynav" href='#scrambledmethod'>Scrambled</a> //\\
+                    <a id="displaynav" href="#discomethod">Disco</a> //\\
+                    <a id="displaynav" href='#romeletmethod'>Romelet</a> //\\ 
+                </span>                 
             </div>
+        </header>
+        
+        <main>
 
-            <div class="right">
-                <article>
-                    <h3>How to Fry an Egg</h3>
-                    <small>Time: 1-3 minutes</small> 
-                    <small>Difficulty:</small>
-                    <p>Fried eggs are...</p>
-                    <ol class="steps">
-                        <li>Step 1</li>
-                        <li>Step 2</li>
-                        <li>Step 3</li>
-                        <li>Step 4</li>
-                    </ol>
-                </article>
-            </div>
-        </section> <!--End cooking method 1-->
+            <section class="method" id="friedmethod">
+                <div class= "float left">
+                    <div class="container">
+                        <img class="center autofit" src="images/fried egg.png" alt="A fried egg" >
+                    </div>
+                </div>
 
-        <section class="landingpage" id="scrambledmethod">
-            <div class= "left">
-                <article>
-                    <img source="images/scrambled.jpg" alt="A scrambled egg">
-                </article>
-            </div>
+                <div class="float right">
+                    <article class="writeup">
+                        <h3>How to fry an egg</h3>
 
-            <div class="right">
-                <article>
-                    <h3>How to Scramble an Egg</h3>
-                    <small>Time: 3-5 minutes</small> 
-                    <small>Difficulty:</small>
-                    <p>Scrambled eggs are...</p>
-                    <ol class="steps">
-                        <li>Step 1</li>
-                        <li>Step 2</li>
-                        <li>Step 3</li>
-                        <li>Step 4</li>
-                    </ol>
-                </article>
-            </div>
-        </section> <!--End cooking method 2-->
+                        <small>Time: 2-3 minutes</small>
+                        <small>/</small> 
+                        <small>Effort Required: &#11055</small>
 
-        <section class="landingpage" id="discomethod">
-            <div class= "left">
-                <article>
-                    <img source="images/disco.jpg" alt="A disco egg">
-                </article>
-            </div>
+                        <p>Over-hard, over-easy, sunny side up, inside out-- so many types of fried egg. It's just a matter of how hot and how long.</p>
 
-            <div class="right">
-                <article>
-                    <h3>How to Make Disco Eggs</h3>
-                    <small>Time: 3-5 minutes</small> 
-                    <small>Difficulty:</small>
-                    <p>Disco eggs are...</p>
-                    <ol class="steps">
-                        <li>Step 1</li>
-                        <li>Step 2</li>
-                        <li>Step 3</li>
-                        <li>Step 4</li>
-                    </ol>
-                </article>
-            </div>
-        </section> <!--End cooking method 3-->
+                        <div class="recipe">
+                            <div class="ingredients">
+                                <h4>Ingredients:</h4>
+                                <ul class="ingredients">
+                                    <li>&#9657 An egg</li>
+                                    <li>&#9657 Oil or butter</li>
+                                    <li>&#9657 Salt + pepper</li>
+                                </ul>
+                            </div>
 
-        <section class="landingpage" id="romelettemethod">
-            <div class= "left">
-                <article>
-                    <img source="images/disco.jpg" alt="A disco egg">
-                </article>
-            </div>
+                            <div class="directions">
+                                <h4>Directions:</h4>
+                                <ol>
+                                    <li>1. Get a pan nice and hot on about medium-high heat.</li>
+                                    <li>2. Add oil and/or butter and let heat for 30 seconds or so. (For a truly fried egg, don't be afraid of using a good amount of butter or oil.)</li>
+                                    <li>3. Check that oil is hot enough by adding a drop of water...the water will tell you if the pan is hot enough.</li>
+                                    <li>4. Being careful not to crack the yolk, break your egg into the pan.</li>
+                                    <li>5. Here are some general cook times for various degrees of doneness:<br>
+                                        &#9657 Sunny-side: 2 - 2.5 minutes on medium high. Season with salt and pepper, no flip.<br>
+                                        &#9657 Over easy (runny yolk): Sunny-side + Flip and cook &asymp; 1 minute more. <br>
+                                        &#9657 Over medium (slightly runny yolk): Over easy + Cook &asymp; 1 minute more <br>
+                                        &#9657 Over hard (hard yolk): Over medium + Cook &asymp; 1 minute more<br> 
+                                     </li>
+                                </ol>
+                            </div>    
+                        </div>
+                    </article>
+                </div>
+            </section> <!--End cooking method 1: Fried-->
 
-            <div class="right">
-                <article>
-                    <h3>How to Make Aa Romelette</h3>
-                    <small>Time: 3-5 minutes</small> 
-                    <small>Difficulty:</small>
-                    <p>Disco eggs are...</p>
-                    <ol class="steps">
-                        <li>Step 1</li>
-                        <li>Step 2</li>
-                        <li>Step 3</li>
-                        <li>Step 4</li>
-                    </ol>
-                </article>
-            </div>
-        </section> <!--End cooking method 3-->
+            <section class="method" id="scrambledmethod">
+                <div class= "float left">
+                    <div class="container">
+                        <img class="center autofit" src="images/scrambled egg.png" alt="A scrambled egg" >
+                    </div>
+                </div>
 
-        <section class="landingpage" id="softmethod">
-            <div class= "left">
-                <article>
-                    <img source="images/disco.jpg" alt="A disco egg">
-                </article>
-            </div>
+                <div class="float right">
+                    <article>
+                        <h3>How to make scrambled eggs</h3>
 
-            <div class="right">
-                <article>
-                    <h3>How to Make A Soft-Boiled Egg</h3>
-                    <small>Time: 3-5 minutes</small> 
-                    <small>Difficulty:</small>
-                    <p>Disco eggs are...</p>
-                    <ol class="steps">
-                        <li>Step 1</li>
-                        <li>Step 2</li>
-                        <li>Step 3</li>
-                        <li>Step 4</li>
-                    </ol>
-                </article>
-            </div>
-        </section> <!--End cooking method 5-->
+                        <small>Time: 3-5 minutes</small>
+                        <small>/</small> 
+                        <small>Effort Required: &#11055 &#11055</small>
+
+                        <p>To many children, scrambled is the only legitimate way to eat an egg. And despite being a relatively easy preparation, there is a surprising amount of contention over how to best scramble eggs. Some like them cooked for an hour using ~residual heat~(shoutout to M.J.) while some prefer them on the creamier side. This recipe will yield light, fluffy.</p>
+
+                        <div class="recipe">
+
+                            <div class="ingredients">
+                                <h4>Ingredients:</h4>
+                                <ul class="ingredients">
+                                    <li>&#9657 2 Eggs</li>
+                                    <li>&#9657 A splash of milk or water</li>
+                                    <li>&#9657 A pad of butter or teaspoon of oil</li>
+                                    <li>&#9657 Salt + pepper</li>
+                                </ul>
+                            </div>
+
+                            <div class="directions">
+                                <h4>Directions:</h4>
+                                <ol>
+                                    <li>1. Crack the eggs into a bowl. Add milk or water and salt + pepper.</li>
+                                    <li>2. Whisk or beat with a fork until the egg yolks and whites are incorporated evenly.</li>
+                                    <li>3. Heat butter or oil in a pan over medium (non-stick or a seasoned cast iron is best).</li>
+                                    <li>4. Add eggs to pan. Let them cook undisturbed for about a minute. </li>
+                                    <li>5. Lift the edges of the eggs to allow uncooked parts to solidify.</li>
+                                    <li>6. When most of the eggs have cooked, you can use your spatula to break the disk into smaller pieces or just flip it to ensure that all parts are cooked and serve.</li><br>
+                                    <li>^LEVEL UP^: Add cheese, veg, or other things that make sense to you around step (5). If you haven't broken the egg up and are careful while flipping, you'll end up with something like a lazy omelet.</li>
+                                </ol>
+                            </div>    
+                        </div>
+                    </article>
+                </div>
+            </section> <!--End cooking method 2: Scrambled-->
+
+            <section class="method" id="discomethod">
+                <div class= "float left">
+                    <div class="container">
+                        <img class="center autofit" src="images/disco.png" alt="A disco egg" >
+                    </div>
+                </div>
+
+                <div class="float right">
+                    <article>
+                        <h3>How to make disco eggs</h3>
+
+                        <small>Time: 3-5 minutes</small>
+                        <small>/</small> 
+                        <small>Effort Required: &#11055 &#11055 &#11055</small>
+
+                        <p>Probably the best hangover treatment on this list. Mumbai Disco Eggs originated with street vendors selling this dish outside of Mumbai clubs. Disco eggs are an excellent way to end a night out or to start your day.</p>    
+                        
+                        <div class="recipe">
+                            <div class="ingredients">
+                                <h4>Ingredients:</h4>
+                                <ul class="ingredients">
+                                    <li>&#9657 2 Eggs</li>
+                                    <li>&#9657 2 White buns (They can be brioche, pav, hamburger buns, probably even Arkansas wedding cake, be creative or just use what you have.)</li>
+                                    <li>&#9657 2 Jalape&#241os or other chili peppers<br>
+                                        Adjust for preferred spice level)</li>
+                                    <li>&#9657 2 Green onions</li>
+                                    <li>&#9657 Oil</li>
+                                    <li>&#9657 Coriander</li>
+                                    <li>&#9657 Chili powder</li> 
+                                    <li>&#9657 Garam masala</li>
+                                    <li>&#9657 Turmeric</li>
+                                    <li>&#9657 Salt</li>
+                                </ul>
+                            </div>
+
+                            <div class="directions">
+                                <h4>Directions:</h4>
+                                <ol>
+                                    <li>1. Get a pan, shallow wok or griddle rill hot.</li>
+                                    <li>2.  While that's heating up, finely slice the peppers and green onions.</li>
+                                    <li>3.  When the pan is hot, pour about a tablespoon of oil in and add peppers and green onions. Cook until fragrant.</li>
+                                    <li>4.  Crack the eggs directly into the pan on top of the peppers and onions. Add spices to your liking. Mix together and lightly scramble the eggs.</li>
+                                    <li>Place inside of open buns on top of the egg mixture. Flip bread and egg together to toast outside of buns.</li>
+                                    <li>Eat it!</li>
+                                </ol>
+                            </div>    
+                        </div>
+                    </article>
+                </div>
+            </section> <!--End cooking method 3: Disco-->
+
+            <section class="method" id="romeletmethod">
+                <div class= "float left">
+                    <div class="container">
+                        <img class="center autofit" src="images/ramen.png" alt="A disco egg" >
+                    </div>
+                </div>
+
+                <div class="float right">
+                    <article>
+                        <h3>How to make a romelet</h3>
+
+                        <small>Time: 3-5 minutes</small>
+                        <small>/</small> 
+                        <small>Effort Required: &#11055 &#11055 &#11055</small>
+
+                        <p>Ramen and eggs: two favorites of the budget-conscious among us. While you could add a fried or boiled egg to your ramen, Chez Internet has delivered a more direct way to fuse egg and noodle. Disco eggs may be the optimal food to ameliorate a hangover, but the romelet is what you make before the hangover has begun to bloom. If you can stand up, you can make a romelet...just don't forget to turn the stove off afterward.</p>
+
+                        <div class="recipe">
+
+                            <div class="ingredients">
+                                <h4>Ingredients:</h4>
+                                <ul class="ingredients">
+                                    <li>&#9657 3 Eggs</li>
+                                    <li>&#9657 A pack of your favorite instant ramen noodles<br> (Recommended: the best instant noodle aka Shin Ramyun) </li>
+                                </ul>
+                            </div>
+
+                            <div class="directions">
+                                <h4>Directions:</h4>
+                                <ul>
+                                    <li>1. Cook ramen to your liking reserving some or all of the spice packet.</li>
+                                    <li>2. Drain noodles.</li>
+                                    <li>3. Scramble eggs in a bowl (or directly into an oiled/buttered pan if you're feeling bold), and add as much of the spice packet as you'd like.</li>
+                                    <li>4. Cook eggs on medium for a minute or so then add cooked noodles.</li>
+                                </ul>
+                            </div>    
+                        </div>
+                    </article>
+                </div>
+            </section> <!--End cooking method 4: Romelet-->
+        
+        </main>
     
-    
-
-    </main>
-
-    <footer>
-
-    </footer>
-</body>
+        <footer>
+            <a href='#top'>&#9786</a>
+        </footer>
+        
+    </body>
+</html>
